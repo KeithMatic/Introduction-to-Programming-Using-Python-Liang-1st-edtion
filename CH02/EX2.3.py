@@ -12,3 +12,6 @@ meters *= feet
 
 # Display the results
 print(f"{feet} feet is {meters} meters")
+feet = eval(input("Enter a value for feet:"))
+metre = feet * 0.305
+print(feet, "feet is", metre, "metres")

@@ -3,6 +3,15 @@
 # kilograms, and displays the result. One pound is 0.454 kilograms. Here is a
 # sample run:
 
-pounds = eval(input("Enter a value in pounds: "))
-kg = pounds * 0.454
-print(pounds, "Pounds is", kg, "Kilograms")
+
+# Prompt the user to enter a value in pounds
+pounds = float(input("Enter a value in pounds: "))
+
+# One pound is 0.454 kilograms
+kilograms = 0.454
+
+# Convert the pounds to kilograms
+kilograms *= pounds
+
+# Display results
+print(f"{pounds} is {kilograms} kilograms")
