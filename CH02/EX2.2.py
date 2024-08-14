@@ -3,10 +3,17 @@
 # area = radius * radius * π
 # volume = area * length
 
-PI = 3.1415
 
-rad, len = eval(input("Enter the radius and length of a cylinder:"))
-area = rad * rad * PI
-vol = area * len
-print("The area is", area)
-print("Thr volume is", vol)
+PI = 3.14159
+
+radius, length = eval(input("Enter the radius and length of a cylinder: "))
+
+# area = radius * radius * pi
+area = float(radius * radius) * PI
+
+# volume = area * length
+volume = area * length
+
+# print area and length
+print(f"The area is {round(area)}")
+print(f"The volume  is {round(volume)}")
