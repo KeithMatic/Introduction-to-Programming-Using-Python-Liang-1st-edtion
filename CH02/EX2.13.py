@@ -1,4 +1,4 @@
-# (Split digits) Write a program that prompts the user to enter a four-digit integer
+# (Split digits) Write a;; program that prompts the user to enter a four-digit integer
 # and displays the number in reverse order.
 num = int(input("Enter an integer: "))
 n1 = num % 10

@@ -3,7 +3,14 @@
 # enters 10 for the subtotal and 15% for the gratuity rate, the program displays 1.5
 # as the gratuity and 11.5 as the total.
 
-subTotal, gratRate = eval(input("Enter the subtotal and a gratuity rate: "))
-grat = subTotal * (gratRate / 100)
-total = subTotal + grat
-print("The gratuity is", grat, "and the total is", total)
+# Read subtotal
+subtotal, gratuity = eval(input("Enter the subtotal and a gratuity rate: "))
+
+# Compute the gratuity
+gratuity = subtotal * (gratuity / 100)
+
+# Compute subtotal
+subtotal += gratuity
+
+# Display results
+print(f"The gratuity is {gratuity:.2f} and the total is {subtotal:.2f}")
