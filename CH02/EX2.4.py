@@ -11,7 +11,7 @@
 # kilograms, and displays the result. One pound is 0.454 kilograms. Here is a
 # sample run:
 
-from icecream import ic
+from icecream import ic # type: ignore
 
 KILOGRAM = 0.454
 
